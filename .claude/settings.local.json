@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e ' *)",
+      "Bash(npm uninstall *)",
+      "Bash(npm run *)",
+      "Bash(curl -s http://localhost:3000/)",
+      "Bash(pkill -f \"next dev\")",
+      "Bash(curl -s -X POST http://localhost:3000/api/exams)",
+      "Bash(node --input-type=module)",
+      "Bash(2>&1)",
+      "WebSearch",
+      "Bash(curl -s \"https://www.itpassportsiken.com/kakomon/07_haru/\")",
+      "Bash(curl -s \"https://www.itpassportsiken.com/kakomon/07_haru/q1.html\")",
+      "Bash(npm install *)",
+      "Bash(Remove-Item *)",
+      "Bash(pnpm dev *)",
+      "Bash(curl -s \"https://www.itpassportsiken.com/kakomon/07_haru/q5.html\")",
+      "Bash(curl -s https://www.itpassportsiken.com/kakomon/07_haru/q__TRACKED_VAR__.html)",
+      "Bash(curl -s \"https://www.itpassportsiken.com/kakomon/07_haru/q26.html\")",
+      "Bash(pnpm build *)",
+      "Bash(gh auth *)",
+      "Bash(git remote *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git branch *)",
+      "Bash(git push *)",
+      "Bash(git config *)"
+    ]
+  }
+}

@@ -4,18 +4,34 @@ import path from "path";
 import type { Exam, Question } from "./types";
 import type { QuestionAnnotations } from "./annotator";
 
-const DATA_DIR = path.join(process.cwd(), "data");
-const EXAMS_FILE = path.join(DATA_DIR, "exams.json");
-const QUESTIONS_DIR = path.join(DATA_DIR, "questions");
-const ANNOTATIONS_DIR = path.join(DATA_DIR, "annotations");
+// Vercel では /var/task が読み取り専用のため書き込みは /tmp へ
+const IS_VERCEL = !!process.env.VERCEL;
+const BUNDLED_DATA_DIR = path.join(process.cwd(), "data");
+const WRITE_DATA_DIR = IS_VERCEL ? "/tmp/data" : BUNDLED_DATA_DIR;
+
+const EXAMS_FILE = path.join(WRITE_DATA_DIR, "exams.json");
+const QUESTIONS_DIR = path.join(WRITE_DATA_DIR, "questions");
+const ANNOTATIONS_DIR = path.join(WRITE_DATA_DIR, "annotations");
+
+const BUNDLED_EXAMS_FILE = path.join(BUNDLED_DATA_DIR, "exams.json");
+const BUNDLED_QUESTIONS_DIR = path.join(BUNDLED_DATA_DIR, "questions");
+const BUNDLED_ANNOTATIONS_DIR = path.join(BUNDLED_DATA_DIR, "annotations");
 
 async function ensureDir(dir: string) {
   await fs.mkdir(dir, { recursive: true });
 }
 
+async function readFileFallback(primary: string, fallback: string): Promise<string> {
+  try {
+    return await fs.readFile(primary, "utf-8");
+  } catch {
+    return await fs.readFile(fallback, "utf-8");
+  }
+}
+
 export async function getExams(): Promise<Exam[]> {
   try {
-    const content = await fs.readFile(EXAMS_FILE, "utf-8");
+    const content = await readFileFallback(EXAMS_FILE, BUNDLED_EXAMS_FILE);
     return JSON.parse(content);
   } catch {
     return [];
@@ -23,7 +39,7 @@ export async function getExams(): Promise<Exam[]> {
 }
 
 export async function saveExam(exam: Exam): Promise<void> {
-  await ensureDir(DATA_DIR);
+  await ensureDir(WRITE_DATA_DIR);
   const exams = await getExams();
   const idx = exams.findIndex((e) => e.id === exam.id);
   if (idx >= 0) {
@@ -37,8 +53,9 @@ export async function saveExam(exam: Exam): Promise<void> {
 
 export async function getQuestions(examId: string): Promise<Question[]> {
   try {
-    const file = path.join(QUESTIONS_DIR, `${examId}.json`);
-    const content = await fs.readFile(file, "utf-8");
+    const primary = path.join(QUESTIONS_DIR, `${examId}.json`);
+    const fallback = path.join(BUNDLED_QUESTIONS_DIR, `${examId}.json`);
+    const content = await readFileFallback(primary, fallback);
     return JSON.parse(content);
   } catch {
     return [];
@@ -53,8 +70,9 @@ export async function saveQuestions(examId: string, questions: Question[]): Prom
 
 export async function getAnnotations(examId: string): Promise<QuestionAnnotations[] | null> {
   try {
-    const file = path.join(ANNOTATIONS_DIR, `${examId}.json`);
-    const content = await fs.readFile(file, "utf-8");
+    const primary = path.join(ANNOTATIONS_DIR, `${examId}.json`);
+    const fallback = path.join(BUNDLED_ANNOTATIONS_DIR, `${examId}.json`);
+    const content = await readFileFallback(primary, fallback);
     return JSON.parse(content) as QuestionAnnotations[];
   } catch {
     return null;

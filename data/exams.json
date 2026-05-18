@@ -1,0 +1,47 @@
+[
+  {
+    "id": "r07",
+    "year": 2025,
+    "fiscalYear": 7,
+    "title": "令和7年度 公開問題",
+    "questionCount": 90,
+    "sourceUrl": "https://www.itpassportsiken.com/kakomon/07_haru/",
+    "fetchedAt": "2026-05-18T10:20:37.247Z"
+  },
+  {
+    "id": "r06",
+    "year": 2024,
+    "fiscalYear": 6,
+    "title": "令和6年度 公開問題",
+    "questionCount": 91,
+    "sourceUrl": "https://www.itpassportsiken.com/kakomon/06_haru/",
+    "fetchedAt": "2026-05-18T10:20:46.087Z"
+  },
+  {
+    "id": "r05",
+    "year": 2023,
+    "fiscalYear": 5,
+    "title": "令和5年度 公開問題",
+    "questionCount": 92,
+    "sourceUrl": "https://www.itpassportsiken.com/kakomon/05_haru/",
+    "fetchedAt": "2026-05-18T10:20:54.932Z"
+  },
+  {
+    "id": "r04",
+    "year": 2022,
+    "fiscalYear": 4,
+    "title": "令和4年度 公開問題",
+    "questionCount": 90,
+    "sourceUrl": "https://www.itpassportsiken.com/kakomon/04_haru/",
+    "fetchedAt": "2026-05-18T10:21:03.827Z"
+  },
+  {
+    "id": "r03",
+    "year": 2021,
+    "fiscalYear": 3,
+    "title": "令和3年度 公開問題",
+    "questionCount": 94,
+    "sourceUrl": "https://www.itpassportsiken.com/kakomon/03_haru/",
+    "fetchedAt": "2026-05-18T10:21:12.681Z"
+  }
+]

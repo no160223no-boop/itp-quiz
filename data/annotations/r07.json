@@ -1,0 +1,1196 @@
+[
+  {
+    "questionId": "r07-q1",
+    "questionNumber": 1,
+    "annotations": [
+      {
+        "term": "偽装請負",
+        "explanation": "請負契約であるにもかかわらず、実質的に労働者派遣と同じ状態。特に発注者の指揮命令下に置かれる場合に該当する。"
+      },
+      {
+        "term": "請負契約",
+        "explanation": "仕事の成果に対して報酬を支払う契約形態。労働者派遣と異なり、請負業者の責任者による指揮命令が必須。"
+      },
+      {
+        "term": "指揮命令",
+        "explanation": "業務遂行の詳細な指示・命令。請負では請負業者の責任者が行うべき。発注者の指揮命令下は派遣と同等で偽装請負。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q2",
+    "questionNumber": 2,
+    "annotations": [
+      {
+        "term": "情報セキュリティマネジメントシステム規格",
+        "explanation": "ISO/IEC 27001など、組織のセキュリティ管理体制を構築・運用するための国際規格。"
+      },
+      {
+        "term": "クラウドサービス",
+        "explanation": "インターネット経由で提供されるIT資源やサービス。従来のオンプレミス環境とは異なるセキュリティ対策が必要。"
+      },
+      {
+        "term": "ガイドライン規格",
+        "explanation": "ISO/IEC 27002など、27001を補完する実装ガイダンス。クラウド対応版ではISO/IEC 27017が該当。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q3",
+    "questionNumber": 3,
+    "annotations": [
+      {
+        "term": "官民データ活用推進基本法",
+        "explanation": "官民が保有するデータの公開・活用を推進する法律。官データは国・地方自治体が所有するデータを指す。"
+      },
+      {
+        "term": "官民データ",
+        "explanation": "官データ（公的機関が保有）と民データ（企業・個人が保有）の総称。法律では両者の活用促進を目標とする。"
+      },
+      {
+        "term": "独立行政法人",
+        "explanation": "国から独立した行政法人で、官民データ活用推進基本法では官データの対象に含まれる公的機関。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q4",
+    "questionNumber": 4,
+    "annotations": [
+      {
+        "term": "経済価値，希少性，模倣困難性及び組織",
+        "explanation": "VRIO分析の4要素。経済価値（価値あるか）、希少性（希少か）、模倣困難性（真似しにくいか）、組織（活用できるか）。"
+      },
+      {
+        "term": "VRIO分析",
+        "explanation": "自社資源の競争優位性を評価するフレームワーク。経営戦略の優先度判断に用いられる。"
+      },
+      {
+        "term": "リソース分析",
+        "explanation": "自社の内部資源を評価する経営分析手法。戦略立案の基礎となるもの。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q5",
+    "questionNumber": 5,
+    "annotations": [
+      {
+        "term": "期末棚卸高",
+        "explanation": "期末時点の在庫の評価額。仕入単価が上昇している場合、期末単価を使うと平均値より高くなる。"
+      },
+      {
+        "term": "売上原価",
+        "explanation": "売上に対応する原価。計算式は「期首棚卸高＋当期商品仕入高－期末棚卸高」。"
+      },
+      {
+        "term": "仕入単価の上昇",
+        "explanation": "期末に最も高い単価となる状況。期末単価で評価すると在庫額が増加し、売上原価は低下する。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q6",
+    "questionNumber": 6,
+    "annotations": [
+      {
+        "term": "特定電子メール法",
+        "explanation": "営利目的の広告宣伝メール（いわゆる迷惑メール）を規制する法律。受信者の同意が必要。"
+      },
+      {
+        "term": "一方的な広告宣伝メール",
+        "explanation": "受信者の事前同意なく送信される営利目的のメール。商品販売促進、サービス勧誘などが対象。"
+      },
+      {
+        "term": "規制対象",
+        "explanation": "特定電子メール法では、商業的目的の広告宣伝メールが規制対象。契約確認メールなどは対象外。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q7",
+    "questionNumber": 7,
+    "annotations": [
+      {
+        "term": "実証",
+        "explanation": "新概念やアイディアが実現可能であることを確認するプロセス。本開発の前段階で行う。"
+      },
+      {
+        "term": "検証",
+        "explanation": "仮説や概念の妥当性を確認する活動。開発前段階での概念実証を指す。"
+      },
+      {
+        "term": "PoC",
+        "explanation": "Proof of Conceptの略。新アイディアの実現可能性を小規模に確認する段階。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q8",
+    "questionNumber": 8,
+    "annotations": [
+      {
+        "term": "バイアスの低減",
+        "explanation": "機械学習で偏ったデータに由来する不公正な結果を減らすこと。データ品質確保が重要。"
+      },
+      {
+        "term": "アノテーション",
+        "explanation": "機械学習用データへのラベル付け。学習目的に合わせた正確な付与がバイアス低減につながる。"
+      },
+      {
+        "term": "データの品質",
+        "explanation": "学習目的への適合性、出典の透明性、バイアスのないことなどを確保すべき要素。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q9",
+    "questionNumber": 9,
+    "annotations": [
+      {
+        "term": "ハッカソン",
+        "explanation": "プログラマーやデザイナーが短期間集中で新規アプリケーションやサービスを開発するイベント。"
+      },
+      {
+        "term": "hackathon",
+        "explanation": "hacking（集中開発）とmarathon（長時間）の造語。イノベーション創出やアイディア検証が目的。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q10",
+    "questionNumber": 10,
+    "annotations": [
+      {
+        "term": "生成AI",
+        "explanation": "テキスト、画像などを新規生成する人工知能。学習データに基づいて確率的に出力を生成。"
+      },
+      {
+        "term": "もっともらしい出力",
+        "explanation": "一見妥当に見えるが実際には誤った内容。生成AIが確率に基づき生成するため発生しやすい。"
+      },
+      {
+        "term": "ハルシネーション",
+        "explanation": "生成AIが事実に基づかない、もっともらしい虚偽情報を出力する現象を指す用語。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q11",
+    "questionNumber": 11,
+    "annotations": [
+      {
+        "term": "FMS(Flexible Manufacturing System)",
+        "explanation": "柔軟な製造システム。複数の製品種に対応でき、生産ラインの迅速な切り替えが可能な自動化製造システム。スマートファクトリーの基盤技術。"
+      },
+      {
+        "term": "スマートファクトリー",
+        "explanation": "IoT、AI、データ分析などを活用して製造プロセスを最適化する工場。生産効率向上と柔軟な対応が特徴。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q12",
+    "questionNumber": 12,
+    "annotations": [
+      {
+        "term": "サービスマーク",
+        "explanation": "商標法で保護される標章。商品ではなく、サービスの提供者が使用する識別標識。銀行、保険、飲食店など無形サービスに適用。"
+      },
+      {
+        "term": "商標法",
+        "explanation": "商標権を保護する法律。商品標章とサービス標章の登録、使用、侵害に関する規定を定める。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q13",
+    "questionNumber": 13,
+    "annotations": [
+      {
+        "term": "活用事例や技術情報などの提供を依頼する文書",
+        "explanation": "ベンダーに対して製品・サービスの詳細情報を求める正式な依頼文書。RFI(Request for Information)が最適。提案ではなく情報収集が目的。"
+      },
+      {
+        "term": "ITソリューションの提供者",
+        "explanation": "ベンダー企業。製品やサービスを提供する立場で、顧客の要件を満たす情報提供が期待される。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q14",
+    "questionNumber": 14,
+    "annotations": [
+      {
+        "term": "知財情報を組み込んで分析し…事業戦略又は経営戦略に反映させる",
+        "explanation": "知的財産情報を経営意思決定に活用するプロセス。自社の知的財産ポートフォリオを経営戦略と連携させることを意味する用語。"
+      },
+      {
+        "term": "知財情報",
+        "explanation": "特許、商標、意匠など知的財産に関する情報。自社および競合他社の権利状況を含む。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q15",
+    "questionNumber": 15,
+    "annotations": [
+      {
+        "term": "事業領域ごとに独立した組織を設置する組織形態",
+        "explanation": "事業部制組織。各事業部が独立採算で運営され、意思決定が迅速化される。ただし重複投資のリスクあり。"
+      },
+      {
+        "term": "意思決定の迅速化，組織の独立採算の推進",
+        "explanation": "経営の分権化を目指す組織設計。各部門の自主性と責任を強化する目的。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q16",
+    "questionNumber": 16,
+    "annotations": [
+      {
+        "term": "不正アクセス禁止法",
+        "explanation": "コンピュータへの無断アクセスを禁止する法律。他人のID・パスワード使用、不正な認証回避、ウイルス作成配布などを規制。"
+      },
+      {
+        "term": "他人の電子メールの利用者IDとパスワード",
+        "explanation": "アクセス認証情報。これを無断で使用、提供、無効化することは不正アクセス禁止法違反となる可能性がある。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q17",
+    "questionNumber": 17,
+    "annotations": [
+      {
+        "term": "プロセスマイニング",
+        "explanation": "業務実行ログやイベントログから実際の業務プロセスを自動抽出・分析する技術。ボトルネック発見やプロセス改善に活用。"
+      },
+      {
+        "term": "業務プロセス",
+        "explanation": "企業内の一連の業務活動。プロセスマイニングは「として行われているプロセス」を発見し、設計と実態のギャップを特定。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q18",
+    "questionNumber": 18,
+    "annotations": [
+      {
+        "term": "アクセシビリティ",
+        "explanation": "IT環境への利用しやすさ。高齢者、障害者を含むすべてのユーザーが等しくシステム・Webサイトを利用できる状態を指す。"
+      },
+      {
+        "term": "ITにおけるアクセシビリティ",
+        "explanation": "ウェブサイトのテキスト代替、音声読み上げ対応、キーボード操作対応など、多様なユーザーへの配慮設計。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q19",
+    "questionNumber": 19,
+    "annotations": [
+      {
+        "term": "VR",
+        "explanation": "Virtual Reality。現実と異なる仮想環境を完全に構築し、ユーザーが没入体験する技術。視覚・聴覚の完全代替が特徴。"
+      },
+      {
+        "term": "AR",
+        "explanation": "Augmented Reality。現実環境に仮想情報を重ねて表示する技術。カメラ映像に情報を追加するもの。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q20",
+    "questionNumber": 20,
+    "annotations": [
+      {
+        "term": "企画プロセス",
+        "explanation": "ソフトウェアライフサイクルの初期段階。ビジネス要件とシステム化構想を策定する。この段階でベンダー情報は意思決定に必須。"
+      },
+      {
+        "term": "システム化構想の立案時",
+        "explanation": "企画プロセスで実行可能性を検討する段階。ベンダーからRFI情報（技術動向、実装可能性、コスト目安など）を収集。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q21",
+    "questionNumber": 21,
+    "annotations": [
+      {
+        "term": "基本的な機能やサービスは無償で提供し，追加の機能やサービスを有償で提供することで利益を上げるビジネスモデル",
+        "explanation": "このビジネスモデルはFreemium(フリーミアム)と呼ばれます。基本機能は無料、プレミアム機能は有料という段階的な課金体系が特徴です。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q22",
+    "questionNumber": 22,
+    "annotations": [
+      {
+        "term": "営業見込みと実績を毎月集約してグラフ化",
+        "explanation": "複数データを集計し可視化する必要があります。BIツール(Business Intelligence)やダッシュボード機能を持つツールが、リアルタイムデータの一元管理と可視化に適しています。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q23",
+    "questionNumber": 23,
+    "annotations": [
+      {
+        "term": "コーポレートガバナンスの強化",
+        "explanation": "経営の透明性と適切な意思決定を確保する取組です。経営と執行の分離、独立性の高い社外取締役による監視が有効施策ですが、株式公開買付けは企業防衛の手段で直接的な強化策ではありません。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q24",
+    "questionNumber": 24,
+    "annotations": [
+      {
+        "term": "RPA",
+        "explanation": "Robotic Process Automationの略。人間が行うパソコン操作を自動化するソフトウェアロボット技術です。定型業務の自動化により効率化を実現します。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q25",
+    "questionNumber": 25,
+    "annotations": [
+      {
+        "term": "ブロックチェーン",
+        "explanation": "取引記録を暗号化して鎖状に連結し、分散管理する技術です。改ざん防止と透明性が特徴で、仮想通貨やサプライチェーン管理などに適用されます。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q26",
+    "questionNumber": 26,
+    "annotations": [
+      {
+        "term": "売掛金",
+        "explanation": "商品やサービスを提供したが、まだ現金を受け取っていない債権です。売上計上日から現金回収日までの期間に存在します。5月31日時点では、計上済みで未回収の額を集計します。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q27",
+    "questionNumber": 27,
+    "annotations": [
+      {
+        "term": "業務と情報システムの現状の把握と目標とする理想像の設定から現状と理想との乖離を明確にし，目標に向けた改善活動を移行計画として定義",
+        "explanation": "現状分析(As-Is)と目標設定(To-Be)のギャップ分析を基に改善計画を策定する手法はエンタープライズアーキテクチャ(EA)です。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q28",
+    "questionNumber": 28,
+    "annotations": [
+      {
+        "term": "生成AI",
+        "explanation": "大規模言語モデルを学習し、テキスト・画像・音声などを生成する人工知能です。ChatGPTなどが代表例で、学習データの品質や著作権問題が課題として指摘されています。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q29",
+    "questionNumber": 29,
+    "annotations": [
+      {
+        "term": "ビジョン",
+        "explanation": "企業が将来実現したい姿を示すものです。ミッション(使命・役割)と異なり、具体的で測定可能な中長期の目標状態を表します。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q31",
+    "questionNumber": 31,
+    "annotations": [
+      {
+        "term": "ERPシステム",
+        "explanation": "Enterprise Resource Planningの略。経営資源(人・物・金・情報)を統合管理するシステムです。財務・人事・販売・生産など複数の部門機能を一元的に管理します。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q32",
+    "questionNumber": 32,
+    "annotations": [
+      {
+        "term": "個人の活動を記録する技術，又は記録そのもの",
+        "explanation": "公共交通・Web検索・SNS投稿など日常の行動データを追跡・蓄積する概念。ビッグデータ時代の個人情報活用と関連し、「デジタルフットプリント」や「ライフログ」といった用語が対応します。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q33",
+    "questionNumber": 33,
+    "annotations": [
+      {
+        "term": "レベル3",
+        "explanation": "自動運転レベルの国際基準SAE J3016で定義される水準。レベル3は特定条件下で運転をシステムが担当し、緊急時のみ人間が対応する状態を指します。"
+      },
+      {
+        "term": "条件付運転自動化",
+        "explanation": "特定の走行条件（高速道路など）でシステムが運転を行い、検知能力の限界に達した場合に人間運転者が介入する自動運転の段階です。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q34",
+    "questionNumber": 34,
+    "annotations": [
+      {
+        "term": "変動費が7,000円",
+        "explanation": "販売数に応じて変動する費用。現在の売上6,000万円から利益400万円を計算し、固定費を求める必要があります。利益＝売上−変動費×販売数−固定費の関係式を用いて解きます。"
+      },
+      {
+        "term": "利益が400万円",
+        "explanation": "現在の利益水準。目標の1,000万円との差分600万円の増加に必要な追加販売数を、粗利益（販売価格−変動費）で割って求めます。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q35",
+    "questionNumber": 35,
+    "annotations": [
+      {
+        "term": "自社製品の差別化ポイントを明確化するもの",
+        "explanation": "マーケティング戦略の策定プロセスにおいて、競合他社との違いを明確にするステップはポジショニング分析やバリュープロポジション定義です。「STP分析」のポジショニング段階に相当します。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q36",
+    "questionNumber": 36,
+    "annotations": [
+      {
+        "term": "合意したサービス提供時間帯のうち，実際に顧客がITサービスを利用できた時間の割合",
+        "explanation": "サービスレベル合意（SLA）で定義される重要な指標。システムの可用性を百分率で表すもので、SLAの主要な成功指標です。\"稼働率\"や\"アップタイム\"とも呼ばれます。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q38",
+    "questionNumber": 38,
+    "annotations": [
+      {
+        "term": "情報セキュリティ監査",
+        "explanation": "独立した第三者または内部部門が、組織のセキュリティポリシー遵守状況、制御の有効性、リスク管理の適切性を客観的に評価・検証するプロセスです。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q40",
+    "questionNumber": 40,
+    "annotations": [
+      {
+        "term": "変更管理委員会が設置されているプロジェクトで変更要求が発生した場合",
+        "explanation": "変更管理委員会（CCB: Change Control Board）は変更要求の評価・承認を行う組織。変更要求は直接実装せず、委員会の審議・承認を経て進行します。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q41",
+    "questionNumber": 41,
+    "annotations": [
+      {
+        "term": "クリティカルパス法",
+        "explanation": "プロジェクトのタスク依存関係とスケジュールを分析する手法。最長経路を特定し、スケジュール短縮の優先度判定に用いられます。スケジュール作成に直接適用されます。"
+      },
+      {
+        "term": "プレシデンスダイアグラム法",
+        "explanation": "タスク間の先行関係を図示し、スケジュール計画を立案する技法。PDM法とも呼ばれ、ガントチャート作成の基礎となります。"
+      },
+      {
+        "term": "DFD(Data Flow Diagram)",
+        "explanation": "データの流れを図式化する分析手法。要件定義・業務分析に用いられ、スケジュール作成には不適切です。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q42",
+    "questionNumber": 42,
+    "annotations": [
+      {
+        "term": "床下にネットワーク配線などのために一定の高さの空間をとり，容易に取り外しが可能なパネルを床板として並べたもの",
+        "explanation": "データセンターやオフィスで配線管理に使用される構造。取り外し可能なパネル床で、下部空間に配線・配管を通すシステムです。\"OA床\"や\"アクセスフロア\"と呼ばれます。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q43",
+    "questionNumber": 43,
+    "annotations": [
+      {
+        "term": "けん制を日常的に実施している状況",
+        "explanation": "相互牽制（けんせい）とは、複数の人が互いに監視・チェックする内部統制手法。出張旅費手続では、申請者と承認者を分離し、不正を防止する仕組みです。"
+      },
+      {
+        "term": "組織間でけん制を日常的に実施",
+        "explanation": "営業員、上司、経理部門など異なる部門が役割を分担し、相互に確認・検証を行う体制。単一部門で完結させず、チェック機能を分散させる内部統制です。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q44",
+    "questionNumber": 44,
+    "annotations": []
+  },
+  {
+    "questionId": "r07-q46",
+    "questionNumber": 46,
+    "annotations": []
+  },
+  {
+    "questionId": "r07-q47",
+    "questionNumber": 47,
+    "annotations": []
+  },
+  {
+    "questionId": "r07-q48",
+    "questionNumber": 48,
+    "annotations": []
+  },
+  {
+    "questionId": "r07-q49",
+    "questionNumber": 49,
+    "annotations": []
+  },
+  {
+    "questionId": "r07-q50",
+    "questionNumber": 50,
+    "annotations": []
+  },
+  {
+    "questionId": "r07-q51",
+    "questionNumber": 51,
+    "annotations": []
+  },
+  {
+    "questionId": "r07-q52",
+    "questionNumber": 52,
+    "annotations": []
+  },
+  {
+    "questionId": "r07-q53",
+    "questionNumber": 53,
+    "annotations": []
+  },
+  {
+    "questionId": "r07-q54",
+    "questionNumber": 54,
+    "annotations": []
+  },
+  {
+    "questionId": "r07-q55",
+    "questionNumber": 55,
+    "annotations": [
+      {
+        "term": "人的資源に関する計画書",
+        "explanation": "プロジェクト実行に必要な人員配置・育成・役割分担を事前に計画する文書。要員の適切な配置とパフォーマンス向上が目的。"
+      },
+      {
+        "term": "トレーニングを計画する",
+        "explanation": "スキル不足への対応策として有効。要員確保と育成のバランスが重要で、単に確保を優先するべきではない。"
+      },
+      {
+        "term": "要員の役割と責任は，プロジェクトの計画段階では明確にせず",
+        "explanation": "不適切な記述。役割と責任は計画段階で明確に定めるべき。後定めはトラブル増加につながる。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q56",
+    "questionNumber": 56,
+    "annotations": [
+      {
+        "term": "Bluetooth",
+        "explanation": "無線通信規格。複数バージョンが存在し、省電力機能も段階的に追加されている。"
+      },
+      {
+        "term": "省電力性に優れている",
+        "explanation": "IoT長期運用の前提条件。消費電力削減が必須。Bluetooth Low Energy（BLE）などがこれに該当。"
+      },
+      {
+        "term": "送受信デバイス間の距離を知ることにも使われている",
+        "explanation": "RSSI（電波強度）やビーコン機能で距離測定やロケーション機能を実現する特性。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q57",
+    "questionNumber": 57,
+    "annotations": [
+      {
+        "term": "HTTPプロキシサーバ",
+        "explanation": "クライアントとWebサーバ間で仲介する。キャッシング、アクセス制御、フィルタリング、匿名化などの機能を提供。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q58",
+    "questionNumber": 58,
+    "annotations": [
+      {
+        "term": "DNS",
+        "explanation": "ドメイン名をIPアドレスに変換する仕組み。インターネットの名前解決を担当。階層的な分散システムで構成。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q59",
+    "questionNumber": 59,
+    "annotations": [
+      {
+        "term": "ISMS",
+        "explanation": "情報セキュリティマネジメントシステム。ISO/IEC27001などが国際基準。適切な運用確認が重要。"
+      },
+      {
+        "term": "内部監査",
+        "explanation": "組織自身が実施する監査。ISMSの有効性確認とリスク把握が目的。定期的・独立的な実施が要件。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q60",
+    "questionNumber": 60,
+    "annotations": [
+      {
+        "term": "FTP",
+        "explanation": "File Transfer Protocol。ネットワークを介したファイル転送の標準プロトコル。クライアント・サーバ型。"
+      },
+      {
+        "term": "TCP/IPネットワーク",
+        "explanation": "インターネットの基本通信体系。FTPはこのスイート内で通信層レベルで動作する。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q61",
+    "questionNumber": 61,
+    "annotations": [
+      {
+        "term": "トランザクション",
+        "explanation": "データベースの一連の操作単位。ACID特性（原子性・一貫性・分離性・永続性）を満たす必要がある。"
+      },
+      {
+        "term": "DBMS",
+        "explanation": "データベース管理システム。トランザクション管理、ロック、ログ機能などでデータ保全性を確保。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q63",
+    "questionNumber": 63,
+    "annotations": [
+      {
+        "term": "間隔尺度",
+        "explanation": "数値の大小比較と差の計算が可能だが、比例関係や絶対的ゼロ点がない尺度。気温・年号などが該当。"
+      },
+      {
+        "term": "名義尺度，順序尺度，比例尺度",
+        "explanation": "名義：分類のみ、順序：大小順が意味あり、比例：ゼロ点と比例関係あり。間隔尺度はこれらと異なる性質。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q64",
+    "questionNumber": 64,
+    "annotations": [
+      {
+        "term": "RSS",
+        "explanation": "Rich Site Summary。XMLベースのフィード形式。ウェブサイトの更新情報を機械可読な形式で配信。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q65",
+    "questionNumber": 65,
+    "annotations": [
+      {
+        "term": "DBMS",
+        "explanation": "データベース管理システム。効率的なデータアクセスの仕組みを組み込んでいる。"
+      },
+      {
+        "term": "データの検索を高速に行う目的で，必要に応じて設定して利用する情報",
+        "explanation": "インデックス（索引）のこと。特定列の値と行位置をマップし、検索性能を大幅に向上させる。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q66",
+    "questionNumber": 66,
+    "annotations": [
+      {
+        "term": "関係データベース",
+        "explanation": "複数の表を関連付けて管理するデータベース。この問題では「ログイン記録」表と「部署」表を結合して条件に該当するデータを抽出する必要があります。"
+      },
+      {
+        "term": "ログイン結果が失敗",
+        "explanation": "条件1：失敗という結果値を持つレコードを抽出。該当する従業員を特定します。"
+      },
+      {
+        "term": "2022年4月10日09:00:00以前にログイン結果が成功",
+        "explanation": "条件2：日時が指定時刻以前かつ成功という結果のレコード。2つの条件のいずれかを満たす従業員の部署を求めます。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q67",
+    "questionNumber": 67,
+    "annotations": [
+      {
+        "term": "3次元画像処理の高速化",
+        "explanation": "3D画像のレンダリングやポリゴン処理を高速に実行する機能。一般的なCPUではなく専用ハードウェアが担当します。"
+      },
+      {
+        "term": "描画処理のためのハードウェア",
+        "explanation": "GPU（グラフィックスプロセッシングユニット）を指しています。映像出力に特化した演算能力を持つハードウェアです。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q68",
+    "questionNumber": 68,
+    "annotations": [
+      {
+        "term": "CSIRT",
+        "explanation": "Computer Security Incident Response Team。組織内のサイバーセキュリティインシデントに対応する専門チーム。検知・分析・対応・復旧などを行います。"
+      },
+      {
+        "term": "活動の例",
+        "explanation": "CSIRTは脆弱性情報の収集・分析、インシデント対応、セキュリティ情報提供などを実施します。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q70",
+    "questionNumber": 70,
+    "annotations": [
+      {
+        "term": "脆弱性を是正するセキュリティパッチ",
+        "explanation": "ソフトウェアの設計・実装上の欠陥（脆弱性）を修正するプログラムファイル。脆弱性そのものへの直接対策となります。"
+      },
+      {
+        "term": "最も有効な対策",
+        "explanation": "セキュリティパッチの適用は、既知の脆弱性を悪用する攻撃に対して最も確実で有効な防止策となります。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q74",
+    "questionNumber": 74,
+    "annotations": [
+      {
+        "term": "デジタルフォレンジックス",
+        "explanation": "コンピュータやデジタルデバイスから、法的証拠価値を保持しながら証拠データを抽出・分析する技術。犯罪調査やセキュリティインシデント対応に活用されます。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q75",
+    "questionNumber": 75,
+    "annotations": [
+      {
+        "term": "半導体メモリ",
+        "explanation": "トランジスタやフラッシュメモリセルで構成される記憶素子。電気的に動作するメモリです。"
+      },
+      {
+        "term": "CD-ROM DVD-RAM RAM SSD USBメモリ",
+        "explanation": "CD-ROM（光ディスク）・DVD-RAM（光ディスク）は光学媒体。RAM・SSD・USBメモリは半導体メモリを使用しています。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q76",
+    "questionNumber": 76,
+    "annotations": [
+      {
+        "term": "セル B1",
+        "explanation": "消費税率が入力されており、パーセント形式で表示。計算式では相対参照か絶対参照かの判断が重要です。"
+      },
+      {
+        "term": "複写",
+        "explanation": "セル C4 の式を C5，C6 にコピーするため、B1 への参照を絶対参照（$B$1）にしておく必要があります。"
+      },
+      {
+        "term": "税込価格",
+        "explanation": "税抜価格×（1+消費税率）で計算。B4 は複写時に B5，B6 に変わるが、B1 は固定すべきです。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q77",
+    "questionNumber": 77,
+    "annotations": [
+      {
+        "term": "ネットワークやホストを監視",
+        "explanation": "通信パケットやシステムログを継続的に観察し、異常を検出する機能。"
+      },
+      {
+        "term": "不正アクセスや不審な通信を発見",
+        "explanation": "攻撃パターンやアノマリー（異常）に基づいて脅威を識別します。"
+      },
+      {
+        "term": "報告する仕組み",
+        "explanation": "IDS（侵入検知システム）やIPS（侵入防止システム）など、検出と通知を行うセキュリティツールを指しています。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q78",
+    "questionNumber": 78,
+    "annotations": [
+      {
+        "term": "手続 calcMod3",
+        "explanation": "プログラムで定義されている関数・メソッド。呼び出し時の戻り値や副作用（出力）を追跡して答えを導きます。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q79",
+    "questionNumber": 79,
+    "annotations": [
+      {
+        "term": "サムネイル",
+        "explanation": "画像や動画などのファイルの小さく縮小された見本版。ファイル内容を素早く確認できるプレビュー画像です。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q80",
+    "questionNumber": 80,
+    "annotations": [
+      {
+        "term": "広範囲かつ大量のデータで訓練されたもの",
+        "explanation": "大規模言語モデル(LLM)の特徴。膨大なデータセットで事前学習されているため、様々なタスクに対応可能です。"
+      },
+      {
+        "term": "ファインチューニング",
+        "explanation": "事前学習済みモデルを特定のタスク用に追加学習させる手法。文章生成AIなど多様な用途に適応させます。"
+      },
+      {
+        "term": "基盤モデル",
+        "explanation": "多くのダウンサイズタスクの基盤となるAIモデル。大規模データで訓練され、様々な応用に転用可能な特性を持ちます。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q81",
+    "questionNumber": 81,
+    "annotations": [
+      {
+        "term": "イメージスキャナーで読み取った紙の書類の画像",
+        "explanation": "スキャナにより画像データとして取得された印刷物や手書き文書です。"
+      },
+      {
+        "term": "印刷文字や手書きの文字を読み取り，テキストデータに変換する技術",
+        "explanation": "OCR(光学文字認識)技術。画像内の文字パターンを認識し、デジタルテキストに変換します。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q82",
+    "questionNumber": 82,
+    "annotations": [
+      {
+        "term": "あるコンピュータのデータベースの内容を他のコンピュータのデータベースに複製",
+        "explanation": "複数のDBMS間でデータをコピーしレプリケーション機能で複製管理します。"
+      },
+      {
+        "term": "両者の内容が一致するように同期させるDBMSの機能",
+        "explanation": "レプリケーション。複数拠点のDB間でデータを複製・同期し、可用性と耐障害性を向上させます。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q84",
+    "questionNumber": 84,
+    "annotations": [
+      {
+        "term": "ISMS",
+        "explanation": "情報セキュリティマネジメントシステム。組織の情報セキュリティを体系的に管理する仕組みです。"
+      },
+      {
+        "term": "情報セキュリティ方針",
+        "explanation": "ISMSの中核となる方針。経営層が定めた情報セキュリティへの基本方針・原則を示します。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q85",
+    "questionNumber": 85,
+    "annotations": [
+      {
+        "term": "1回の学習の過程を経るごとに，学習の過程の前後の比較において，誤り率が5%低下する(前回の誤り率の95%になる)",
+        "explanation": "各学習後、誤り率が前回の95%に縮小。つまり正解率は(100%-誤り率)で増加していきます。"
+      },
+      {
+        "term": "現在の正解率が30%",
+        "explanation": "初期状態の誤り率は70%です。これを基準に計算を進めます。"
+      },
+      {
+        "term": "正解率が35%を超えるために",
+        "explanation": "誤り率が65%以下になる必要があります。70%×0.95^n≦65%を満たす最小のnを求めます。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q86",
+    "questionNumber": 86,
+    "annotations": [
+      {
+        "term": "動物が写っている大量の画像から犬や猫などの特徴を自動的に抽出",
+        "explanation": "教師あり学習で大量の画像データから動物の特徴を自動学習する処理です。"
+      },
+      {
+        "term": "動物の種類を識別できるようにする",
+        "explanation": "学習した特徴から新しい画像の動物種を分類します。深層学習やニューラルネットワークで実現されます。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q87",
+    "questionNumber": 87,
+    "annotations": [
+      {
+        "term": "PKI",
+        "explanation": "公開鍵基盤。公開鍵暗号とデジタル証明書を用いた認証・暗号化の仕組みです。"
+      },
+      {
+        "term": "CRL",
+        "explanation": "証明書失効リスト。失効・無効なデジタル証明書の一覧を公開し、信頼性を確保します。"
+      },
+      {
+        "term": "このリストに掲載される条件",
+        "explanation": "秘密鍵漏洩・期限切れ・所有者情報変更など、証明書が無効になった場合に掲載されます。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q88",
+    "questionNumber": 88,
+    "annotations": [
+      {
+        "term": "物理的セキュリティ対策",
+        "explanation": "施設・建物への不正アクセス防止。入退管理、監視カメラ、防犯ゲートなど物理的な手段による対策です。"
+      },
+      {
+        "term": "技術的セキュリティ対策",
+        "explanation": "暗号化・認証・ファイアウォールなどIT技術を使った対策。物理的対策ではありません。"
+      },
+      {
+        "term": "人的セキュリティ対策",
+        "explanation": "従業員教育・アクセス管理・組織ルール。人的要因への対策で、物理的対策ではありません。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q89",
+    "questionNumber": 89,
+    "annotations": [
+      {
+        "term": "Aさんとの共通鍵で暗号化したメッセージ",
+        "explanation": "共通鍵暗号。Aさんが同じ鍵を持つため復号可能です。"
+      },
+      {
+        "term": "Aさんの公開鍵で暗号化したメッセージ",
+        "explanation": "Aさんの公開鍵で暗号化されたデータはAさんの秘密鍵でのみ復号可能。Aさんは読めます。"
+      },
+      {
+        "term": "Bさんの秘密鍵で暗号化したメッセージ",
+        "explanation": "Bさんの秘密鍵による暗号化（署名）はBさんの公開鍵で復号できます。Aさんは公開鍵で復号可能です。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q90",
+    "questionNumber": 90,
+    "annotations": [
+      {
+        "term": "無線LANのセキュリティ対策",
+        "explanation": "WPA3などの暗号化、SSID非公開設定、MAC認証、ファイアウォール設定など複合的な対策が必要です。"
+      },
+      {
+        "term": "WPA2/WPA3暗号化",
+        "explanation": "無線通信の暗号化標準。通信内容の盗聴防止に重要です。"
+      },
+      {
+        "term": "アクセスポイントの管理画面パスワード変更",
+        "explanation": "デフォルトパスワード使用は不正アクセスのリスク。変更が必須セキュリティ対策です。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q91",
+    "questionNumber": 91,
+    "annotations": [
+      {
+        "term": "リスク移転",
+        "explanation": "リスクの影響を保険会社など第三者に移す対応。保険加入がこれに該当します。"
+      },
+      {
+        "term": "リスク回避",
+        "explanation": "リスク要因となる活動や事業を中止・廃止する対応。最も確実ですが実現が難しい場合が多い。"
+      },
+      {
+        "term": "リスク低減",
+        "explanation": "対策や制御を実施してリスクの発生確率や影響度を減らす対応。最も実施される方法です。"
+      },
+      {
+        "term": "リスク保有",
+        "explanation": "リスクが顕在化した場合の損害を受け入れる対応。低リスクな事象に選択されます。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q92",
+    "questionNumber": 92,
+    "annotations": [
+      {
+        "term": "ランサムウェア",
+        "explanation": "ファイルを暗号化して身代金を要求するマルウェア。日頃からのバックアップ取得が重要な対策。"
+      },
+      {
+        "term": "損害を軽減する対策",
+        "explanation": "ランサムウェア対策では定期的なバックアップ、OSやソフトの最新化、信頼できるセキュリティソフト導入が有効。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q93",
+    "questionNumber": 93,
+    "annotations": [
+      {
+        "term": "脅威",
+        "explanation": "セキュリティを損なう可能性のある悪意のある行為やシステム障害などの事象。マルウェア、攻撃者の意図的行為などが該当。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q94",
+    "questionNumber": 94,
+    "annotations": [
+      {
+        "term": "稼働率0.9の装置",
+        "explanation": "1台の装置が正常に動作する確率は0.9、故障確率は0.1。"
+      },
+      {
+        "term": "並列システム",
+        "explanation": "複数装置のうち少なくとも1台が稼働していればシステムが動作する構成。システム故障確率=全装置故障確率。"
+      },
+      {
+        "term": "システムの稼働率を0.999とする",
+        "explanation": "システム故障確率を0.001以下にする必要があります。n台時の故障確率=(0.1)^nなので計算で求めます。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q95",
+    "questionNumber": 95,
+    "annotations": [
+      {
+        "term": "データベース設計におけるデータ分析",
+        "explanation": "業務で扱うデータの内容、データ項目、データ関連性を把握して、正規化などの設計に活かすプロセス。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q96",
+    "questionNumber": 96,
+    "annotations": [
+      {
+        "term": "OSS(Open Source Software)",
+        "explanation": "ソースコードが公開されており、自由に改変・再配布可能なソフトウェア。ライセンス条項に従う必要があります。"
+      },
+      {
+        "term": "著作権が放棄されている",
+        "explanation": "OSSでも著作権は保持されている場合がほとんど。著作権放棄は要件ではありません。"
+      },
+      {
+        "term": "自由に再配布してもよい",
+        "explanation": "多くのOSSはライセンス（GPL等）の条件下での再配布が許可されています。無条件ではなく条件付きです。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q97",
+    "questionNumber": 97,
+    "annotations": [
+      {
+        "term": "可用性",
+        "explanation": "情報システムが必要な時に正常に利用できる状態。システムが停止・利用不可になると損なわれます。"
+      },
+      {
+        "term": "DoS攻撃",
+        "explanation": "システムに過負荷をかけて処理不可にする攻撃。可用性を直接損ないます。"
+      },
+      {
+        "term": "機密性",
+        "explanation": "情報が許可された者以外にアクセスされない状態。情報漏えいは機密性の喪失。"
+      },
+      {
+        "term": "完全性",
+        "explanation": "データが正確であり改ざんされていない状態。誤った内容のデータは完全性の喪失。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q98",
+    "questionNumber": 98,
+    "annotations": [
+      {
+        "term": "選択ソート",
+        "explanation": "手順は選択ソートのアルゴリズム。毎回最大値を後ろに移動し、対象外にしていく方法。"
+      },
+      {
+        "term": "4個の要素",
+        "explanation": "初回は4要素から最大値を選ぶ。次は3要素、その次は2要素から選ぶ流れになります。"
+      },
+      {
+        "term": "手順を繰り返して",
+        "explanation": "整列対象が1個になるまで繰り返すので、4→3→2で3回実行されます。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q99",
+    "questionNumber": 99,
+    "annotations": [
+      {
+        "term": "calculateAmountOfPrize",
+        "explanation": "改善額と短縮期間から賞金額を計算する関数。プログラムの実装ロジックを確認する必要があります。"
+      },
+      {
+        "term": "improvement",
+        "explanation": "業務改善の改善額をパラメータ。単位は万円。"
+      },
+      {
+        "term": "period",
+        "explanation": "業務改善の短縮期間をパラメータ。単位は日数。"
+      }
+    ]
+  },
+  {
+    "questionId": "r07-q100",
+    "questionNumber": 100,
+    "annotations": [
+      {
+        "term": "知識",
+        "explanation": "本人だけが知る情報。パスワード、暗証番号などが該当する認証要素。"
+      },
+      {
+        "term": "所有物",
+        "explanation": "本人が保有する物品。ICカード、スマートフォン、セキュリティキーなどが該当する認証要素。"
+      },
+      {
+        "term": "バイオメトリクス",
+        "explanation": "本人の身体的特性。指紋認証、顔認証、虹彩認証などが該当する認証要素。"
+      }
+    ]
+  }
+]

@@ -35,5 +35,3 @@ pnpm-debug.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# scraped exam data (regenerate with "過去問を取得" button)
-/data/

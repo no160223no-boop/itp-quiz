@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { loadProgress } from "@/lib/quizStorage";
 import { BookmarkCheck } from "lucide-react";
 
@@ -10,15 +10,10 @@ interface Props {
 }
 
 export function ResumeInfo({ examId, total }: Props) {
-  const [savedIndex, setSavedIndex] = useState<number | null>(null);
-
-  useEffect(() => {
+  const [savedIndex] = useState<number | null>(() => {
     const p = loadProgress(examId);
-    // index 0 は「まだ1問目」なので表示しない
-    if (p && p.currentIndex > 0) {
-      setSavedIndex(p.currentIndex);
-    }
-  }, [examId]);
+    return p && p.currentIndex > 0 ? p.currentIndex : null;
+  });
 
   if (savedIndex === null) return null;
 

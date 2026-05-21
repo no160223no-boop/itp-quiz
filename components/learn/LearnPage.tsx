@@ -5,7 +5,6 @@ import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import type { Exam, Question, AnswerKey, QuizResult } from "@/lib/types";
 import type { Annotation, QuestionAnnotations } from "@/lib/annotator";
-import { saveProgress, loadProgress, clearProgress } from "@/lib/quizStorage";
 import { AnnotatedQuestion } from "@/components/learn/AnnotatedQuestion";
 import {
   CheckCircle,
@@ -45,6 +44,23 @@ export function LearnPage({ exam, questions }: Props) {
   const [result, setResult] = useState<QuizResult | null>(null);
   const [showGrid, setShowGrid] = useState(false);
 
+  function applyAnnotations(list: QuestionAnnotations[]) {
+    const map: Record<number, Annotation[]> = {};
+    list.forEach((qa) => {
+      map[qa.questionNumber] = qa.annotations;
+    });
+    setAnnotationsMap(map);
+  }
+
+  function loadSavedProgress() {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY(exam.id));
+      return raw ? JSON.parse(raw) : null;
+    } catch {
+      return null;
+    }
+  }
+
   // 注釈を取得 or 生成
   useEffect(() => {
     async function loadAnnotations() {
@@ -79,23 +95,6 @@ export function LearnPage({ exam, questions }: Props) {
 
     loadAnnotations();
   }, [exam.id]); // eslint-disable-line react-hooks/exhaustive-deps
-
-  function applyAnnotations(list: QuestionAnnotations[]) {
-    const map: Record<number, Annotation[]> = {};
-    list.forEach((qa) => {
-      map[qa.questionNumber] = qa.annotations;
-    });
-    setAnnotationsMap(map);
-  }
-
-  function loadSavedProgress() {
-    try {
-      const raw = localStorage.getItem(STORAGE_KEY(exam.id));
-      return raw ? JSON.parse(raw) : null;
-    } catch {
-      return null;
-    }
-  }
 
   const autosave = useCallback(
     (nextIndex: number, nextAnswers: Record<number, AnswerKey | null>) => {

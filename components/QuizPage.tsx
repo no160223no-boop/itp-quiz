@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import type { Exam, Question, AnswerKey, QuizResult } from "@/lib/types";
@@ -26,24 +26,25 @@ interface Props {
 
 export function QuizPage({ exam, questions }: Props) {
   const router = useRouter();
-  const [phase, setPhase] = useState<Phase>("loading");
-  const [index, setIndex] = useState(0);
-  const [answers, setAnswers] = useState<Record<number, AnswerKey | null>>({});
-  const [revealed, setRevealed] = useState<Set<number>>(new Set());
-  const [flagged, setFlagged] = useState<Set<number>>(new Set());
+  const [phase, setPhase] = useState<Phase>("quiz");
+  const [index, setIndex] = useState(() => {
+    const saved = loadProgress(exam.id);
+    return saved?.currentIndex ?? 0;
+  });
+  const [answers, setAnswers] = useState<Record<number, AnswerKey | null>>(() => {
+    const saved = loadProgress(exam.id);
+    return saved?.answers ?? {};
+  });
+  const [revealed, setRevealed] = useState<Set<number>>(() => {
+    const saved = loadProgress(exam.id);
+    return new Set(saved?.revealed ?? []);
+  });
+  const [flagged, setFlagged] = useState<Set<number>>(() => {
+    const saved = loadProgress(exam.id);
+    return new Set(saved?.flagged ?? []);
+  });
   const [showGrid, setShowGrid] = useState(false);
   const [result, setResult] = useState<QuizResult | null>(null);
-
-  useEffect(() => {
-    const saved = loadProgress(exam.id);
-    if (saved) {
-      if (saved.currentIndex > 0) setIndex(saved.currentIndex);
-      setAnswers(saved.answers ?? {});
-      setRevealed(new Set(saved.revealed ?? []));
-      setFlagged(new Set(saved.flagged ?? []));
-    }
-    setPhase("quiz");
-  }, [exam.id]);
 
   const q = questions[index];
   const isRevealed = q ? revealed.has(q.number) : false;
